@@ -8,7 +8,7 @@ let linkClosed2 = false;
 let mobileMenuNav = document.getElementById("mobileNav");
 //Slider function
 let windowWidth = window.innerWidth;
-
+window.addEventListener("load", AOS.refresh);
 //
 function menuMobileOpenHandler() {
 	mobileMenuNav.classList.add("visible");
